@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://adactinhotelapp.com/index.php"/>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="test.TC_004_CheckinTest">
+        <methods>
+          <include name="testDetails"/>
+          <include name="setup"/>
+          <include name="reportInitialization"/>
+          <include name="checkinTest"/>
+          <include name="reportClose"/>
+          <include name="browserClose"/>
+          <include name="launchAndLoadURL"/>
+        </methods>
+      </class> <!-- test.TC_004_CheckinTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

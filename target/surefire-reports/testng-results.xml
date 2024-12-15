@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-15T13:18:35 IST" name="Suite" finished-at="2024-12-15T13:19:05 IST" duration-ms="29445">
+    <groups>
+    </groups>
+    <test started-at="2024-12-15T13:18:35 IST" name="Test" finished-at="2024-12-15T13:19:05 IST" duration-ms="29445">
+      <class name="test.TC_004_CheckinTest">
+        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:test.TC_004_CheckinTest@62ddbd7e]" started-at="2024-12-15T13:18:35 IST" name="reportInitialization" finished-at="2024-12-15T13:18:35 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialization -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_004_CheckinTest@62ddbd7e]" started-at="2024-12-15T13:18:35 IST" name="setup" finished-at="2024-12-15T13:18:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_004_CheckinTest@62ddbd7e]" started-at="2024-12-15T13:18:35 IST" name="testDetails" finished-at="2024-12-15T13:18:35 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004_CheckinTest@62ddbd7e]" started-at="2024-12-15T13:18:35 IST" name="launchAndLoadURL" finished-at="2024-12-15T13:18:39 IST" duration-ms="3743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="checkinTest()[pri:0, instance:test.TC_004_CheckinTest@62ddbd7e]" started-at="2024-12-15T13:18:39 IST" name="checkinTest" finished-at="2024-12-15T13:19:04 IST" duration-ms="25320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkinTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_004_CheckinTest@62ddbd7e]" started-at="2024-12-15T13:19:04 IST" name="browserClose" finished-at="2024-12-15T13:19:05 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:test.TC_004_CheckinTest@62ddbd7e]" started-at="2024-12-15T13:19:05 IST" name="reportClose" finished-at="2024-12-15T13:19:05 IST" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportClose -->
+      </class> <!-- test.TC_004_CheckinTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2024-12-15T13:19:05 IST" name="Suite (0)" finished-at="2024-12-15T13:21:17 IST" duration-ms="132035">
+    <groups>
+    </groups>
+    <test started-at="2024-12-15T13:19:05 IST" name="ChromeTest" finished-at="2024-12-15T13:20:10 IST" duration-ms="65171">
+      <class name="test.TC_003_BookingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_003_BookingTest@ae13544]" started-at="2024-12-15T13:19:05 IST" name="setup" finished-at="2024-12-15T13:19:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_003_BookingTest@ae13544]" started-at="2024-12-15T13:19:40 IST" name="testDetails" finished-at="2024-12-15T13:19:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_BookingTest@ae13544]" started-at="2024-12-15T13:19:40 IST" name="launchAndLoadURL" finished-at="2024-12-15T13:19:42 IST" duration-ms="2909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="bookingTest()[pri:0, instance:test.TC_003_BookingTest@ae13544]" started-at="2024-12-15T13:19:42 IST" name="bookingTest" finished-at="2024-12-15T13:19:45 IST" duration-ms="2157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_003_BookingTest@ae13544]" started-at="2024-12-15T13:19:45 IST" name="browserClose" finished-at="2024-12-15T13:19:45 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC_003_BookingTest -->
+      <class name="test.TC_002_LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_002_LoginTest@6f4a47c7]" started-at="2024-12-15T13:19:05 IST" name="setup" finished-at="2024-12-15T13:19:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_002_LoginTest@6f4a47c7]" started-at="2024-12-15T13:19:30 IST" name="testDetails" finished-at="2024-12-15T13:19:30 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginTest@6f4a47c7]" started-at="2024-12-15T13:19:31 IST" name="launchAndLoadURL" finished-at="2024-12-15T13:19:34 IST" duration-ms="2914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginTest@6f4a47c7]" started-at="2024-12-15T13:19:34 IST" name="loginTest" data-provider="excelRead" finished-at="2024-12-15T13:19:35 IST" duration-ms="967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pradeepkumar3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passcode]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[validusernameAndvalidpassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome to Adactin Group of Hotels]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_002_LoginTest@6f4a47c7]" started-at="2024-12-15T13:19:35 IST" name="browserClose" finished-at="2024-12-15T13:19:36 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginTest@6f4a47c7]" started-at="2024-12-15T13:19:36 IST" name="launchAndLoadURL" finished-at="2024-12-15T13:19:38 IST" duration-ms="2772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginTest@6f4a47c7]" started-at="2024-12-15T13:19:38 IST" name="loginTest" data-provider="excelRead" finished-at="2024-12-15T13:19:39 IST" duration-ms="833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passcode]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalidusernameAndvalidpassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid Login details or Your Password might have expired.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_002_LoginTest@6f4a47c7]" started-at="2024-12-15T13:19:39 IST" name="browserClose" finished-at="2024-12-15T13:19:40 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC_002_LoginTest -->
+      <class name="test.TC_0001_RegisterResult">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_0001_RegisterResult@69453e37]" started-at="2024-12-15T13:19:05 IST" name="setup" finished-at="2024-12-15T13:19:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_0001_RegisterResult@69453e37]" started-at="2024-12-15T13:19:05 IST" name="testDetails" finished-at="2024-12-15T13:19:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_0001_RegisterResult@69453e37]" started-at="2024-12-15T13:19:05 IST" name="launchAndLoadURL" finished-at="2024-12-15T13:19:08 IST" duration-ms="3000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="RegisterTest()[pri:0, instance:test.TC_0001_RegisterResult@69453e37]" started-at="2024-12-15T13:19:08 IST" name="RegisterTest" finished-at="2024-12-15T13:19:30 IST" duration-ms="21456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_0001_RegisterResult@69453e37]" started-at="2024-12-15T13:19:30 IST" name="browserClose" finished-at="2024-12-15T13:19:30 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC_0001_RegisterResult -->
+      <class name="test.TC_004_CheckinTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_004_CheckinTest@3d34d211]" started-at="2024-12-15T13:19:05 IST" name="setup" finished-at="2024-12-15T13:19:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_004_CheckinTest@3d34d211]" started-at="2024-12-15T13:19:45 IST" name="testDetails" finished-at="2024-12-15T13:19:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004_CheckinTest@3d34d211]" started-at="2024-12-15T13:19:45 IST" name="launchAndLoadURL" finished-at="2024-12-15T13:19:48 IST" duration-ms="2841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="checkinTest()[pri:0, instance:test.TC_004_CheckinTest@3d34d211]" started-at="2024-12-15T13:19:48 IST" name="checkinTest" finished-at="2024-12-15T13:20:10 IST" duration-ms="22287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkinTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_004_CheckinTest@3d34d211]" started-at="2024-12-15T13:20:10 IST" name="browserClose" finished-at="2024-12-15T13:20:10 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC_004_CheckinTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-12-15T13:20:10 IST" name="EdgeTest" finished-at="2024-12-15T13:21:17 IST" duration-ms="66852">
+      <class name="test.TC_003_BookingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_003_BookingTest@13b6aecc]" started-at="2024-12-15T13:20:10 IST" name="setup" finished-at="2024-12-15T13:20:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_003_BookingTest@13b6aecc]" started-at="2024-12-15T13:20:50 IST" name="testDetails" finished-at="2024-12-15T13:20:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_BookingTest@13b6aecc]" started-at="2024-12-15T13:20:50 IST" name="launchAndLoadURL" finished-at="2024-12-15T13:20:55 IST" duration-ms="4640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="bookingTest()[pri:0, instance:test.TC_003_BookingTest@13b6aecc]" started-at="2024-12-15T13:20:55 IST" name="bookingTest" finished-at="2024-12-15T13:20:57 IST" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_003_BookingTest@13b6aecc]" started-at="2024-12-15T13:20:57 IST" name="browserClose" finished-at="2024-12-15T13:20:58 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC_003_BookingTest -->
+      <class name="test.TC_002_LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_002_LoginTest@7d8704ef]" started-at="2024-12-15T13:20:10 IST" name="setup" finished-at="2024-12-15T13:20:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_002_LoginTest@7d8704ef]" started-at="2024-12-15T13:20:39 IST" name="testDetails" finished-at="2024-12-15T13:20:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginTest@7d8704ef]" started-at="2024-12-15T13:20:39 IST" name="launchAndLoadURL" finished-at="2024-12-15T13:20:43 IST" duration-ms="4655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginTest@7d8704ef]" started-at="2024-12-15T13:20:43 IST" name="loginTest" data-provider="excelRead" finished-at="2024-12-15T13:20:44 IST" duration-ms="1029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pradeepkumar3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passcode]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[validusernameAndvalidpassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome to Adactin Group of Hotels]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_002_LoginTest@7d8704ef]" started-at="2024-12-15T13:20:44 IST" name="browserClose" finished-at="2024-12-15T13:20:45 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginTest@7d8704ef]" started-at="2024-12-15T13:20:45 IST" name="launchAndLoadURL" finished-at="2024-12-15T13:20:49 IST" duration-ms="4624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginTest@7d8704ef]" started-at="2024-12-15T13:20:49 IST" name="loginTest" data-provider="excelRead" finished-at="2024-12-15T13:20:50 IST" duration-ms="654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passcode]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalidusernameAndvalidpassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid Login details or Your Password might have expired.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_002_LoginTest@7d8704ef]" started-at="2024-12-15T13:20:50 IST" name="browserClose" finished-at="2024-12-15T13:20:50 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC_002_LoginTest -->
+      <class name="test.TC_0001_RegisterResult">
+        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:test.TC_0001_RegisterResult@17f7cd29]" started-at="2024-12-15T13:19:05 IST" name="reportInitialization" finished-at="2024-12-15T13:19:05 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialization -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_0001_RegisterResult@17f7cd29]" started-at="2024-12-15T13:20:10 IST" name="setup" finished-at="2024-12-15T13:20:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_0001_RegisterResult@17f7cd29]" started-at="2024-12-15T13:20:10 IST" name="testDetails" finished-at="2024-12-15T13:20:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_0001_RegisterResult@17f7cd29]" started-at="2024-12-15T13:20:10 IST" name="launchAndLoadURL" finished-at="2024-12-15T13:20:21 IST" duration-ms="10344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="RegisterTest()[pri:0, instance:test.TC_0001_RegisterResult@17f7cd29]" started-at="2024-12-15T13:20:21 IST" name="RegisterTest" finished-at="2024-12-15T13:20:38 IST" duration-ms="17160" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/table[2]/tbody/tr/td[1]/table/tbody/tr/td/a"}
+  (Session info: MicrosoftEdge=131.0.2903.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [60ce24b551974334b30d118b75461b8c, findElement {using=xpath, value=/html/body/table[2]/tbody/tr/td[1]/table/tbody/tr/td/a}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51550}, msedge: {msedgedriverVersion: 131.0.2903.99 (f96a870b1316..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51550/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60ce24b551974334b30d118b75461b8c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/table[2]/tbody/tr/td[1]/table/tbody/tr/td/a"}
+  (Session info: MicrosoftEdge=131.0.2903.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [60ce24b551974334b30d118b75461b8c, findElement {using=xpath, value=/html/body/table[2]/tbody/tr/td[1]/table/tbody/tr/td/a}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51550}, msedge: {msedgedriverVersion: 131.0.2903.99 (f96a870b1316..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51550/devtoo..., se:cdpVersion: 131.0.2903.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60ce24b551974334b30d118b75461b8c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at pages.RegisterResult.validateRegister(RegisterResult.java:18)
+at test.TC_0001_RegisterResult.RegisterTest(TC_0001_RegisterResult.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_0001_RegisterResult@17f7cd29]" started-at="2024-12-15T13:20:38 IST" name="browserClose" finished-at="2024-12-15T13:20:39 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:test.TC_0001_RegisterResult@17f7cd29]" started-at="2024-12-15T13:21:17 IST" name="reportClose" finished-at="2024-12-15T13:21:17 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportClose -->
+      </class> <!-- test.TC_0001_RegisterResult -->
+      <class name="test.TC_004_CheckinTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_004_CheckinTest@158a8276]" started-at="2024-12-15T13:20:10 IST" name="setup" finished-at="2024-12-15T13:20:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_004_CheckinTest@158a8276]" started-at="2024-12-15T13:20:58 IST" name="testDetails" finished-at="2024-12-15T13:20:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004_CheckinTest@158a8276]" started-at="2024-12-15T13:20:58 IST" name="launchAndLoadURL" finished-at="2024-12-15T13:21:02 IST" duration-ms="4685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAndLoadURL -->
+        <test-method signature="checkinTest()[pri:0, instance:test.TC_004_CheckinTest@158a8276]" started-at="2024-12-15T13:21:02 IST" name="checkinTest" finished-at="2024-12-15T13:21:17 IST" duration-ms="14614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkinTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_004_CheckinTest@158a8276]" started-at="2024-12-15T13:21:17 IST" name="browserClose" finished-at="2024-12-15T13:21:17 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC_004_CheckinTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
